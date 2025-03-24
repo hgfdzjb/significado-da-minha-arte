@@ -45,12 +45,6 @@
                 event.preventDefault();
             }
         });
-        
-        // Firewall básico: bloquear acceso si no proviene de un referrer permitido
-        if (document.referrer === "") {
-            alert("Acceso denegado");
-            window.location.href = "https://google.com";
-        }
     </script>
     
     <div class="container">
